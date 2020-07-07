@@ -81,7 +81,7 @@
   padding: 13px 147px 15px 16px;
   border: none;
   outline: none;
-  width: 354px;
+  width: 100%;
 }
 
 .btn {
@@ -101,11 +101,12 @@
   border-radius: 10px;
   border: none;
   outline: none;
-  width: 162px;
+  width: 100%;
+
 }
 
 .btn-style:hover {
-    background: hsl(115, 92%, 44%);
+  background: hsl(115, 92%, 44%);
 }
 
 .text-2 {
