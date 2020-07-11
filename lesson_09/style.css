@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/image_1.png);
+}
+
+.blue {
+  background-color: #146fb1;
+}
+
+.green {
+  background-color: #6caa12;
+}
+
+.square {
+  position: absolute;
+  left: 429px;
+  top: 372px;
+  width: 235px;
+  height: 178px;
+
+  opacity: 0.75;
+
+  transition: 0.3s all ease;
+ 
+}
+
+.square-02 {
+  position: absolute;
+  left: 618px;
+  top: 426px;
+  width: 235px;
+  height: 178px;
+
+  transition: 0.3s all ease;
+  
+}
+
+.square-03 {
+  position: absolute;
+  left: 811px;
+  top: 341px;
+  width: 324px;
+  height: 206px;
+  opacity: 0.75;
+  transition: 0.3s all ease;
+  
+}
+
+.square-04 {
+  position: absolute;
+  left: 1264px;
+top: 341px;
+  width: 200px;
+  height: 151px;
+  
+  opacity: 0.8;
+  transition: 0.3s all ease;
+  
+}
+
+.square-05 {
+  position: absolute;
+  left: 879px;
+  top: 522px;
+  width: 175px;
+height: 133px;
+  opacity: 0.3;
+
+  transition: 0.3s all ease;
+  
+}
+
+.square-06 {
+  position: absolute;
+  left: 1130px;
+  top: 477px;
+  width: 200px;
+height: 151px;
+  opacity: 0.6;
+
+  transition: 0.3s all ease;
+  
+}
+
+.square-07 {
+  position: absolute;
+  left: 1264px;
+  top: 341px;
+  width: 327px;
+height: 248px;
+  opacity: 0.8;
+
+  transition: 0.3s all ease;
+  
+}
+
+.square-08 {
+  position: absolute;
+  left: 1185px;
+  top: 607px;
+  width: 175px;
+height: 133px;
+  opacity: 0.4;
+
+  transition: 0.3s all ease;
+  
+}
+
+.square:hover {
+  z-index: 1;
+  opacity: 1;
+ 
+}

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-image: url(../img/Rectangle\ 3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrap {
+    padding-top: 82px;
+    padding-bottom: 81px;
+}
+
+.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+.title-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 100%;
+  border: 1px solid white;
+}
+
+.subtitle-1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.par {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8c654;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 82px;
+  padding-bottom: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #5c524b;
+}
+
+.inp-pos-1 {
+  padding: 0px 0px 0px 49px;
+}
+.inp-pos-2 {
+  margin: 0px 30px 0px 0px;
+}
+
+.m-width-1 {
+  width: 350px;
+}
+
+.m-width-2 {
+  width: 150px;
+}
+
+.position {
+  position: relative;
+  display: flex;
+  padding: 0px 0px 0px 49px;
+}
+
+.duble-inp {
+  margin-top: 30px;
+}
+
+.no-border {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 7px 0px;
+}
+
+.far-p {
+  position: relative;
+  top: 0;
+  left: -20px;
+  
+}
+
+.item-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.btn {
+  padding: 14px 110px;
+  background: #f8c654;
+  border-radius: 30px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.or {
+  font-family: Poppins;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9f9f9f;
+}
+
+.phone-pos {
+  padding-top: 23px;
+}
+.phone-number {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #5c524b;
+  text-decoration-color: #e5e5e5;
+}
+
+.color-text {
+  padding-top: 65px;
+  padding-bottom: 36px;
+  text-align: center;
+}
+
+.text-col {
+  color: #f8c654;
+}
