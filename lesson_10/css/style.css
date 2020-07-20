@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
+}
+
+.container {
+  max-width: 400px;
+  max-height: 500px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/Group__1.jpg);
+  background-position: center;
+}
+
+.title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #fbf6e4;
+  padding: 60px 70px 0px;
+}
+
+.form__position {
+    padding: 36px 70px;
+}
+
+.placeholder__name {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fbf6e4;
+}
+
+.input__diciration {
+  border: 2px solid rgba(191, 185, 204, 0.5);
+  background: none;
+  padding: 10px 29px;
+  margin-bottom: 34px;
+  outline: none;
+  color: #fbf6e4;
+}
+
+
+.input__diciration:focus {
+    border-color: #23AE92;
+    
+} 
+
+.placeholder__name--checkbox {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 10px;
+  color: #fbf6e4;
+}
+
+.checkbox__dicoration {
+    transform:scale(1.5);
+}
+
+.checkbox__dicoration:focus {
+    background-color: #23ae99;
+}
+.link {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  color: #fbf6e4;
+}
+
+.link:hover {
+    color: #23ae99;
+}
+
+.btn__diciration {
+  color: #23ae99;
+  margin: 30px 0px 26px;
+  max-width: 100%;
+ 
+}
+
+.btn {
+  width: 100%;
+  height: 42px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #fbf6e4;
+  background: #23ae92;
+  border: none;
+  padding: 10px 31px;
+  outline: none;
+}
+
+.btn:focus {
+    transform:scale(1.1);
+}
+
+.link__position {
+  display: flex;
+  justify-content: space-between;
+  
+}
